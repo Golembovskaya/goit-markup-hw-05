@@ -492,7 +492,23 @@ li {
   letter-spacing: 0.02em;
   text-decoration: none;
 }
-
+.header-page {
+  display: block;
+  width: 48px;
+  padding-bottom: 32px;
+  padding-top: 32px;
+  position: relative;
+}
+.header-page::before {
+  content: "";
+  width: 48px;
+  height: 4px;
+  background-color: #2196f3;
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  border-radius: 2px;
+}
 .header-page:hover,
 .header-page:focus {
   color: var(--navigation-color);
