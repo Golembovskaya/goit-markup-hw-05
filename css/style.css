@@ -494,7 +494,7 @@ li {
 }
 .header-page {
   display: block;
-  width: 48px;
+  /*width: 48px;*/
   padding-bottom: 32px;
   padding-top: 32px;
   position: relative;
@@ -512,6 +512,8 @@ li {
 .header-page:hover,
 .header-page:focus {
   color: var(--navigation-color);
+}
+.header-page-portfolio {
 }
 .navigation {
   color: var(--btn-main-color-text);
