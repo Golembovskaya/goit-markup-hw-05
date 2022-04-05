@@ -464,6 +464,9 @@ fill: currentColor;
 }
 .images-list {
   margin: 15px;
+  transition-property: box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .images-list:hover,
 .images-list:focus {
@@ -499,8 +502,8 @@ fill: currentColor;
   display: block;
   margin: 0 auto;
   transform: translateY(100%);
-  /*transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4,0,0.2,1);*/
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4,0,0.2,1);
 }
 .portfolio-link:hover .portfolio-item-description,
 .portfolio-link:focus .portfolio-item-description{
